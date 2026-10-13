@@ -1,5 +1,12 @@
 # MCP Developer Assistant
 
+## Overview
+
+A developer assistant lab in which an agent reaches GitHub, Postgres, the filesystem and docs through MCP tools. `GET /tools` lists the available tools and `POST /call` runs one, while any apply action needs human approval and stays false until it is given. A versioned `/v1` API adds workspaces, tenant isolation, job approval and audit records.
+
+- **Built with:** Python, MCP, pytest, GitHub Actions
+- **Scope:** Laptop lab; it uses no hosted model, and cluster apply stays false until a human approves.
+
 <!-- project-guide:start -->
 ## Project guide
 
